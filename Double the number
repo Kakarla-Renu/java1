@@ -1,0 +1,33 @@
+You need to double the integer and return it.
+
+Input:
+
+2
+
+output:
+
+4
+
+//Answer//
+
+import java.util.*;
+public class duble
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        renu dc=new renu();
+        dc.gret(n);
+     }
+}
+class renu
+{
+    public static void gret(int n)
+    {
+       // Scanner sc=new Scanner(System.in);
+        //int n=sc.nextInt();
+        int a=2*n;
+        System.out.println(a);
+    }
+}
