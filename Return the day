@@ -1,0 +1,63 @@
+Complete the function which returns the weekday according to the input number:
+
+1 returns "Sunday"
+2 returns "Monday"
+3 returns "Tuesday"
+4 returns "Wednesday"
+5 returns "Thursday"
+6 returns "Friday"
+7 returns "Saturday"
+Otherwise returns "Wrong, please enter a number between 1 and 7"
+INPUT 1:
+1
+OUTPUT 1:
+Sunday
+
+//Answer//
+
+import java.util.*;
+public class Day {
+
+    public static String getDay(int n) {
+        //write your logic here
+        if(n==1)
+        {
+            System.out.println("Sunday");
+        }
+        else if(n==2)
+        {
+            System.out.println("Monday");
+        }
+        else if(n==3)
+        {
+            System.out.println("Tuesday");
+        }
+        else if(n==4)
+        {
+            System.out.println("Wednesday");
+        }
+        else if(n==5)
+        {
+            System.out.println("Thursday");
+        }
+        else if(n==6)
+        {
+            System.out.println("Friday");
+        }
+        else if(n==7)
+        {
+            System.out.println("Saturday");
+        }
+        else
+        {
+            System.out.println("Wrong, please enter a number between 1 and 7");
+        }
+        return "";
+ }
+  
+
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int a=sc.nextInt();
+System.out.println(getDay(a));
+}}
