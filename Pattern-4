@@ -1,0 +1,25 @@
+Write a code to print the pattern dynamically
+
+Sample Input:
+
+5
+
+Sample Output: 
+
+    *
+
+   * *
+
+  *   *
+
+ *     *
+
+*       *
+
+ *     *
+
+  *   *
+
+   * *
+
+    *
